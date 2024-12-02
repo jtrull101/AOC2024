@@ -16,7 +16,7 @@ pub fn solve_part1() {
 
 
 pub fn solve_part2() {
-    let (mut heap1, mut heap2) = setup_heaps();
+    let (mut heap1, heap2) = setup_heaps();
     let mut found_values: HashMap<i32, i32> = HashMap::new();
 
     while let Some(Reverse(val1)) = heap1.pop() {
