@@ -4,9 +4,3 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-
-[features]
-default = ["day01"]
-day01 = []
-day02 = []
-day03 = []

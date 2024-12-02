@@ -11,7 +11,7 @@ pub fn solve_part1() {
         sum += (val2 - val1).abs();
     }
 
-    println!("Day 01 part 1: {}", sum);
+    println!("Day 01: Part 1: {}", sum);
 }
 
 
@@ -30,7 +30,7 @@ pub fn solve_part2() {
     }
 
     let sum: i32 = found_values.values().sum();
-    println!("Day 01 part 2: {}", sum);
+    println!("Day 01: Part 2: {}", sum);
 }
 
 /**
